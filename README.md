@@ -80,10 +80,12 @@ Define a `City.find` function that accepts an ID returns a promise that queries 
 
 Use the `City.find` function in the `index.js` file to log the population of the city with the ID of 100.
 
+Drop all cities in the city table.
+
 Define a `City.create` function that accepts a `city` object and inserts
 a new row into the city table with the provided information.
 
-Use the `City.create` function in the `index.js` file to create a new city.
+Use the `City.create` function in the `index.js` file to create a new city, and log the new city's ID.
 
 Define a `City.update` function that accepts a `cityUpdates` object that contains
 values for all columns of an existing city, along with the ID. The function should

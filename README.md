@@ -68,7 +68,7 @@ module.exports = db;
 
 ## Create a model
 
-Create a model file `models/city.js`
+Create a model file `models/City.js`
 
 The file should define and export a single `City` object.
 

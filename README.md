@@ -1,6 +1,6 @@
 # pg-promise Lab
 
-In this lab, you will create model objects for cities, countries, and languages.
+In this lab, you will create model objects for cities.
 
 ## Database setup
 
@@ -92,3 +92,5 @@ update that row in the city table with this information.
 Use the `City.update` function in the `index.js` file to update a city.
 
 Define a `City.delete` function that accepts an ID and removes the corresponding city in the table.
+
+Create a `City.allInCountry` function that accepts a country name like `Brazil` and returns all columns in the city table that match.

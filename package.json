@@ -1,0 +1,21 @@
+{
+  "name": "LAB_U02_D09_PG_PROMISE_COUNTRIES",
+  "version": "1.0.0",
+  "description": "In this lab, you will create model objects for cities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:erylmurphy9/LAB_U02_D09_PG_PROMISE_COUNTRIES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "pg-monitor": "^1.0.0",
+    "pg-promise": "^8.4.4"
+  }
+}
